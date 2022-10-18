@@ -1,0 +1,43 @@
+.post{
+    background-color: #dcdcdc;
+    /* height:max-content; */
+    max-width: 1300px;
+    margin:50px 100px 50px 100px; /*top right bottom left*/
+    height:340px;
+    padding: 35px;
+    font-family: sans-serif;
+    color: rgb(69, 29, 29);
+}
+
+.title{
+    background-color: #ac9494;
+    /* margin: 50px; */
+    padding: 15px;
+    margin-bottom: 25px;
+    font-size: 25px;
+
+}
+
+.description{
+    background-color: #8b7272;
+    height: 170px;
+    padding: 15px;
+}
+
+.foot{
+    margin: 25px;
+}
+
+.foot .left{
+    /* background-color: brown; */
+    /* padding: 2px; */
+} 
+
+.foot .right{
+    float: right;
+    width: max-content;
+    background-color: transparent;
+    padding: 0px;
+    margin-top: 0px;
+    
+}

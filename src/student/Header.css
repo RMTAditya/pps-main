@@ -1,0 +1,57 @@
+body{
+  background-color: #c4acac;
+}
+
+.header{
+  margin:50px;  
+  max-height: fit-content;
+  height: 50px;
+  /* background-color: aquamarine */
+  font-size: large;
+  
+}
+.left{
+  float: left;
+}
+
+.logo{
+  width: 50px;
+  height: 40px;
+  /* background-color: violet; */
+  size: 50px;
+  padding-left: 15px;
+  padding-top: 5px;
+  float: left;
+}
+
+.username{
+  margin-top: 10px;
+  background-color: #dcdcdc;
+  margin-left: 25px;
+  float: right;
+  height: 20px;
+  padding: 5px 5px;
+  width: max-content;
+  /* font-size: large; */
+  
+}
+
+.username a{
+  text-decoration: none;
+}
+
+.right{
+  float: right;
+  background-color: #341c1c;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.right a{
+  float: left;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  color:white;
+  text-decoration: none;
+}

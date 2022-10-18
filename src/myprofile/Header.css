@@ -1,0 +1,21 @@
+body{
+    background-color: #72AAC4;
+    font-family: sans-serif;
+
+}
+
+.header{
+    background-color: blue;
+    height: 100px;
+    max-width: 1550px;
+    margin: 35px;
+    font-size: larger;
+}
+
+
+.header a{
+    float: right;
+    padding-right:15px ;
+    text-decoration: none;
+}
+

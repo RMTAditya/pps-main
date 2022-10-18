@@ -1,0 +1,125 @@
+/* body{
+ margin: 35px;   
+ display: inline;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float: right;
+    /* background-color: yellowgreen;
+    width: 470px;
+    height: 100px;
+    margin: 35px; */
+/* }
+
+.rt{
+    float: right;
+} */ 
+
+.main{
+    max-width: 1510px;
+    background-color: rgb(108, 108, 70);
+    margin: 35px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.left{
+    background-color: violet;
+    width: 270px;
+    height: max-content;
+    margin-right: 20px;
+}
+
+.left a{
+    text-decoration: none;
+    display: block;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+}
+.center{
+    background-color: tomato;
+    width: 900px;
+    margin-right: 20px;
+    height: auto;
+    
+
+}
+
+.center .profile{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 50px;
+}
+
+.center .posts{
+    background-color: rgb(31, 54, 54);
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: aliceblue;
+}
+
+.center .posts .foot{
+    display:flex;
+    color: aliceblue;
+}
+
+.center .posts .foot p{
+    float: left;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.center .posts .foot h4{
+    padding-left: 400px;
+}
+
+.center .posts .title{
+    background-color: rgb(160, 203, 203);
+    height: 50px;
+    /* margin: 10px; /*top right bottom left*/
+    /* margin-top: 20px; */
+
+}
+
+.center .posts .desc{
+    background-color: rgb(38, 110, 86);
+    height: 150px;
+    margin-top: 10px;
+    
+}
+
+.right{
+    background-color: springgreen;
+    width: 280px;
+    height: max-content;
+    text-align: center;
+}
+.right h1{
+    font-weight: 900;
+    font-size: 100px;
+    background-color: rgb(107, 107, 156);
+}
+
+.right h4{
+    font-size: 30px;
+    background-color: cadetblue;
+    
+}
+
+.right .posts{
+    background-color: tan;
+}
+
+.right .approved{
+    background-color: rgb(53, 35, 11);
+}
