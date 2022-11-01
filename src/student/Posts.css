@@ -1,15 +1,23 @@
-.post{
+
+p { margin: 0px; padding: 0px; }
+.s-post{
     background-color: #dcdcdc;
     /* height:max-content; */
     max-width: 1300px;
     margin:50px 100px 50px 100px; /*top right bottom left*/
-    height:340px;
+    height:350px;
     padding: 35px;
     font-family: sans-serif;
     color: rgb(69, 29, 29);
 }
 
-.title{
+.s-head{
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.s-title{
     background-color: #ac9494;
     /* margin: 50px; */
     padding: 15px;
@@ -18,22 +26,25 @@
 
 }
 
-.description{
+.s-description{
     background-color: #8b7272;
     height: 170px;
     padding: 15px;
 }
 
-.foot{
-    margin: 25px;
+.s-foot{
+    /* margin: 25px; */
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-.foot .left{
+.s-foot .s-left{
     /* background-color: brown; */
     /* padding: 2px; */
+    margin-top: 15px;
 } 
 
-.foot .right{
+.s-foot .s-right{
     float: right;
     width: max-content;
     background-color: transparent;

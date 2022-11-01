@@ -1,22 +1,22 @@
 import React,{useState} from 'react'
-
+import './Posts.css'
 const Posts = ({datum}) => {
     return (
     <>
     {datum.map((data)=>{
     const {id,title,desc,date,status}=data
     return(
-        <div className="posts">
+        <div className="p-posts">
         <p>Post no : {id}</p>
-        <div className="title">
+        <div className="p-title">
           {title}
         </div>
-        <div className="desc">
+        <div className="p-desc">
           {desc}
         </div>
-        <div className="foot">
-          <p>date posted : {date}</p>
-          <h4>status : {status}</h4>
+        <div className="p-foot">
+          <p className='p-date'>date posted : {date}</p>
+          <h4 className='p-status'>status : {status}</h4>
         </div>
       </div>
     )

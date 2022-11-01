@@ -1,0 +1,36 @@
+p { margin: 0px; padding: 0px; }
+.p-posts{
+    font-size: 25px;
+    background-color: #748c94;
+    margin-bottom: 75px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 700px;
+}
+
+.p-title{
+    background-color: #9cb4cc;
+    padding: 5px;
+    margin-top: 20px;
+}
+.p-desc{
+    margin-top: 20px;
+    background-color: #9cb4cc;
+    height: 150px;
+    max-height: max-content;
+    padding: 10px;
+}
+.p-foot{
+    display: inline-flex;
+}
+
+.p-date{
+    margin-top: 35px;
+    margin-right: 90px;
+    margin-left: 25px;
+}
+
+.p-status{
+    margin-right: 20px;
+}
